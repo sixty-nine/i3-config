@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo $(date '+%d-%m-%y')
+
+if [ $BLOCK_BUTTON = 3 ]; then
+    gnome-calendar
+fi
