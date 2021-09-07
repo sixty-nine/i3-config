@@ -213,6 +213,7 @@ exec killall -q notify-osd
 exec --no-startup-id nm-applet
 exec --no-startup-id /usr/bin/clipit
 exec --no-startup-id /usr/bin/flameshot
+exec --no-startup-id /usr/bin/tuxedo-control-center
 exec_always --no-startup-id /usr/bin/feh --bg-scale /home/dan/Pictures/backgrounds/water_drops_on_glass-wide.jpg
 
 bindsym $mod+x move workspace to output left

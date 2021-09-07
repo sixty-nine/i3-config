@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo $(date '+%d-%m-%y')
+echo " " $(date '+%d-%m-%y') " " $(date '+%H:%M:%S')
 
 if [ $BLOCK_BUTTON = 3 ]; then
     gnome-calendar
